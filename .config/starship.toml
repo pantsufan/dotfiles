@@ -1,0 +1,20 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+[line_break]
+disabled = true
+
+[character]
+success_symbol = "[🐧️](bold green)"
+error_symbol = "[💥](bold red) "
+
+[username]
+style_user = "purple bold"
+style_root = "blue bold"
+format = "🔥️ [$user]($style)"
+disabled = false
+show_always = true
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
