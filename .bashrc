@@ -118,3 +118,15 @@ fi
 neofetch
 eval "$(starship init bash)"
 LS_COLORS="di=1;35:ex=4;31:*.mp3=1;32;41"
+
+alias wiki='cd Diary && vim index.md && cd'
+
+alias roll='sudo apt update && sudo apt upgrade -y && flatpak update -y'
+
+alias wall='cd /home/joel/Scripts && bash waldl && bash wallup.sh'
+
+alias walls='cd Downloads && cd walls && sxiv -t *'
+
+alias lofi="cd Scripts && ./lofi.sh"
+
+alias mine='cd Downloads && cd TLauncher-2.75 && sudo java -jar TLauncher-2.75.jar'
