@@ -3,3 +3,7 @@
 -o /home/joel/YouTube/%(title)s-%(uploader)s.%(ext)s
 --no-mtime 
 --sponsorblock-remove all
+--sub-lang en 
+--embed-subs 
+--convert-subtitles srt 
+--merge-output-format mp4
